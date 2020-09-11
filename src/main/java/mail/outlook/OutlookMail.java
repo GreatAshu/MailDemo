@@ -18,7 +18,7 @@ public class OutlookMail {
 
 	public void outlookmail() throws MessagingException {
 		String host = "smtp-mail.outlook.com";
-		String username = "ashutoshanand2020@outlook.com";
+		String username = "ashutoshanand2020@outlook.com"; 
 		String password = "ashutosh@123";
 		String[] to = { "ashutoshanand2020@outlook.com" };
 		Properties props = new Properties();
