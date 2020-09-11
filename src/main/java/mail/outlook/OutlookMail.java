@@ -27,6 +27,8 @@ public class OutlookMail {
 		props.put("mail.smtp.auth", "true");
 		Session session = Session.getInstance(props);
 
+		
+		
 		try {
 			int size = to.length;
 			for (int i = 0; i < size; i++) {
